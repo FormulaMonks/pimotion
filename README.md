@@ -10,6 +10,7 @@ numpy==1.6.2
 PIL==1.1.7
 requests==2.4.3
 picamera==1.8
+m2x==0.3
 ```
 
 ### Installation
