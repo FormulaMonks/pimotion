@@ -19,7 +19,7 @@ Installation can be done through cloning the repo onto your Raspberry PI:
 
 	$ git clone https://github.com/citrusbyte/pimotion.git
 	$ cd pimotion
-	$ pip install pip install -r requirements.txt
+	$ pip install -r requirements.txt
 
 
 ### Configuration
