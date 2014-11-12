@@ -51,7 +51,7 @@ Run the following command to install the required system packages:
 
 ```
 $ sudo apt-get update
-$ sudo apt-get install python-dev
+$ sudo apt-get install python-dev python-pip imagemagick
 ```
 
 ### Generate your SSH key pair
@@ -99,12 +99,6 @@ $ git clone git@github.com:citrusbyte/pimotion.git
 ```
 
 ### Dependency installation
-
-Install python's pip package management tool:
-
-```
-$ sudo apt-get install python-pip imagemagick
-```
 
 In the pimotion folder run the following command to install all the dependent python packages:
 
