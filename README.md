@@ -31,3 +31,7 @@ Copy the `settings.cfg.example` file to `settings.cfg` and modify it with your C
 The application can be started by running:
 
 	$ python pimotion/main.py
+
+### License
+
+This project is delivered under the MIT license. See [LICENSE](LICENSE) for the terms.
