@@ -32,6 +32,9 @@ The application can be started by running:
 
 	$ python pimotion/main.py
 
+### Example Capture
+![pimotion-demo-capture](https://raw.githubusercontent.com/citrusbyte/pimotion/master/docs/pimotion-demo-capture.jpg)
+
 ### License
 
 This project is delivered under the MIT license. See [LICENSE](LICENSE) for the terms.
