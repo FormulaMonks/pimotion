@@ -35,3 +35,7 @@ The application can be started by running:
 ### License
 
 This project is delivered under the MIT license. See [LICENSE](LICENSE) for the terms.
+
+### Attributions
+
+Written by [Jelle Hekins](https://github.com/jellehenkens), sponsored by [Citrusbyte](https://citrusbyte.com/)
