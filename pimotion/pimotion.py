@@ -31,7 +31,7 @@ class CaptureHandler:
 
             path = "captures/%s/" % datetime.datetime.now().isoformat()
 
-            os.mkdir(path)
+            os.makedirs(path)
 
             self.camera.start_preview()
 
