@@ -1,6 +1,8 @@
 Pimotion
 ========
 
+![PIMotion Logo](docs/logo-256.png?raw=true)
+
 Pimotion is a motion detector application that runs on the Raspberry PI. It captures snapshots of movement and uploads the montage image to an [M2X](https://m2x.att.com) feed.
 
 ### Package Dependencies
