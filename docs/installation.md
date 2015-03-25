@@ -130,9 +130,9 @@ __cloudapp__:
  * password: Your CloudApp password
 
 __m2x__:
- * api_key: Your master API key or the feed specific API key
- * feed_id: The Feed ID
- * stream: The name of the stream in your M2X feed
+ * api_key: Your master API key or the device specific API key
+ * device_id: The Device ID
+ * stream: The name of the stream in your M2X device
 
 ### Running pimotion
 

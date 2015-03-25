@@ -4,5 +4,5 @@ password=__your_cloudapp_password__
 
 [m2x]
 api_key=
-feed_id=
+device_id=
 stream=

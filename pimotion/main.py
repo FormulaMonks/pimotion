@@ -2,7 +2,6 @@ from pimotion import PiMotion
 from cloudapp import CloudAppAPI
 from cloudapp.exceptions import CloudAppHttpError
 from m2x.client import M2XClient
-from m2x.errors import APIError
 from requests.exceptions import HTTPError, RequestException
 import ConfigParser
 
@@ -18,16 +17,12 @@ def callback(path):
         print 'Public URL: ' + url
 
         client = M2XClient(Config.get('m2x', 'api_key'))
-        feed = client.feeds.details(Config.get('m2x', 'feed_id'))
-        result = feed.add_values({Config.get('m2x', 'stream'): [{'value': url}]})
-        print "Posted URL to M2X channel %s" % Config.get('m2x', 'stream')
+        stream = client.device(Config.get('m2x', 'device_id')).stream(Config.get('m2x', 'stream'))
+        result = stream.add_value(url)
+        print "Posted URL to M2X stream %s" % Config.get('m2x', 'stream')
     except HTTPError, e:
         print 'ERROR: ' + e.message
     except RequestException, e:
-        print 'ERROR: ' + str(e)
-    except APIError, e:
-        errors = ', '.join("%s: %r" % (key, val) for (key, val) in e.errors.iteritems())
-        print "ERROR: %s - %s" % (e.message, errors)
     except CloudAppHttpError, e:
         print 'CloudApp ERROR:' + e.message
 
