@@ -44,3 +44,18 @@ This project is delivered under the MIT license. See [LICENSE](LICENSE) for the 
 ### Attributions
 
 Written by [Jelle Henkens](https://github.com/jellehenkens), sponsored by [Citrusbyte](https://citrusbyte.com/)
+
+## About Citrusbyte
+
+![Citrusbyte](http://i.imgur.com/W6eISI3.png)
+
+Pimotion is lovingly maintained and funded by Citrusbyte.
+At Citrusbyte, we specialize in solving difficult computer science problems for startups and the enterprise.
+
+At Citrusbyte we believe in and support open source software.
+* Check out more of our open source software at Citrusbyte Labs.
+* Learn more about [our work](https://citrusbyte.com/portfolio).
+* [Hire us](https://citrusbyte.com/contact) to work on your project.
+* [Want to join the team?](http://careers.citrusbyte.com)
+
+*Citrusbyte and the Citrusbyte logo are trademarks or registered trademarks of Citrusbyte, LLC.*
