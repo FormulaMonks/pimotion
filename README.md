@@ -43,7 +43,7 @@ This project is delivered under the MIT license. See [LICENSE](LICENSE) for the 
 
 ### Attributions
 
-Written by [Jelle Henkens](https://github.com/jellehenkens), sponsored by [Citrusbyte](https://citrusbyte.com/)
+Written by [Sarah Henkens](https://github.com/sarahhenkens), sponsored by [Citrusbyte](https://citrusbyte.com/)
 
 ## About Citrusbyte
 
