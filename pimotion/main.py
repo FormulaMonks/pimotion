@@ -11,17 +11,20 @@ Config.read('settings.cfg')
 
 
 def callback(path):
+    client = M2XClient(Config.get('m2x', 'api_key'))
     try:
         api = CloudAppAPI(Config.get('cloudapp', 'username'), Config.get('cloudapp', 'password'))
         url = api.upload(path)
         print 'Public URL: ' + url
 
-        client = M2XClient(Config.get('m2x', 'api_key'))
         stream = client.device(Config.get('m2x', 'device_id')).stream(Config.get('m2x', 'stream'))
         result = stream.add_value(url)
         print "Posted URL to M2X stream %s" % Config.get('m2x', 'stream')
     except HTTPError, e:
-        print 'ERROR: ' + e.message
+        print 'ERROR: '
+        print '  STATUS: %s' % client.last_response.status
+        print '  HEADERS: %s' % client.last_response.headers
+        print '  BODY: %s' % client.last_response.json 
     except RequestException, e:
     except CloudAppHttpError, e:
         print 'CloudApp ERROR:' + e.message
