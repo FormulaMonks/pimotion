@@ -1,5 +1,8 @@
 numpy==1.6.2
 PIL==1.1.7
-requests==2.4.3
-picamera==1.8
-m2x==4.0.0
+requests==2.10.0
+picamera==1.10
+m2x==5.2.0
+pyopenssl==16.0.0
+ndg-httpsclient==0.4.0
+pyasn1==0.1.9
