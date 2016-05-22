@@ -5,28 +5,31 @@ Pimotion
 
 Pimotion is a motion detector application that runs on the Raspberry PI. It captures snapshots of movement and uploads the montage image to an [M2X](https://m2x.att.com) device.
 
-### Package Dependencies
-
-```
-numpy==1.6.2
-PIL==1.1.7
-requests==2.4.3
-picamera==1.8
-m2x==4.0.0
-```
-
 ### Installation
+
+#### 1. System dependencies
+```bash
+$ sudo apt-get install libffi-dev
+```
+See: https://urllib3.readthedocs.io/en/latest/security.html#pyopenssl
+
+#### 2. Getting the source code
 
 Installation can be done through cloning the repo onto your Raspberry PI:
 
-	$ git clone https://github.com/citrusbyte/pimotion.git
-	$ cd pimotion
-	$ pip install -r requirements.txt
+```bash
+	$ git clone git@github.com:citrusbyte/pimotion.git
+```
 
+#### 3. Python package dependencies
+Run the following command from the pimotion project root folder:
+```bash
+	$ pip install -r requirements.txt
+```
 
 ### Configuration
 
-Copy the `settings.cfg.example` file to `settings.cfg` and modify it with your CloudAPP username and password.
+Copy the `settings.cfg.example` file to `settings.cfg` and modify it with your CloudAPP and M2X credentials.
 
 ### Running
 
