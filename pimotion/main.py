@@ -25,7 +25,7 @@ def callback(path):
         print '  STATUS: %s' % client.last_response.status
         print '  HEADERS: %s' % client.last_response.headers
         print '  BODY: %s' % client.last_response.json
-    except (RequestException, CloudApphttpError), e:
+    except (RequestException, CloudAppHttpError), e:
         print 'CloudApp ERROR:' + e.message
 
 
