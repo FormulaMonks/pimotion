@@ -18,7 +18,7 @@ See: https://urllib3.readthedocs.io/en/latest/security.html#pyopenssl
 Installation can be done through cloning the repo onto your Raspberry PI:
 
 ```bash
-	$ git clone git@github.com:citrusbyte/pimotion.git
+	$ git clone https://github.com/citrusbyte/pimotion.git
 ```
 
 #### 3. Python package dependencies

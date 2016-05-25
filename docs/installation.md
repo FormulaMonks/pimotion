@@ -54,29 +54,6 @@ $ sudo apt-get update
 $ sudo apt-get install python-dev python-pip imagemagick
 ```
 
-### Generate your SSH key pair
-
-You will need to generate a SSH key pair to be able to pull from our private repo. In your Raspberry PI shell run the following command to generate this key pair:
-
-```
-$ ssh-keygen -t rsa -C "your_email@example.com"
-```
-
-### Gain access to the private repo
-
-You will need to add the generated public key as a deploy key to the pimotion private repo.
-
-Copy the contents of the id_rsa.pub file in your clipboard.
-
-```
-cat ~/.ssh/id_rsa.pub
-```
-
-And add it as a deploy key to the private repo: `https://github.com/citrusbyte/pimotion/settings/keys`.
-
-For additional help with the SSH key pair setup please refer to the [GitHub guide](https://help.github.com/articles/generating-ssh-keys/).
-
-
 ## Pimotion application installation
 
 ### Python
@@ -90,12 +67,10 @@ Python 2.7.3
 
 ### Getting the source code
 
-The pimotion application's source code is in a private repo on our github account. Run the following command to pull the latest version:
+Run the following command to pull the latest version of Pimotion:
 
 ```
-$ mkdir ~/projects
-$ cd ~/projects
-$ git clone git@github.com:citrusbyte/pimotion.git
+$ git clone https://github.com/citrusbyte/pimotion.git
 ```
 
 ### Dependency installation
