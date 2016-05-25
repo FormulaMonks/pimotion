@@ -70,6 +70,8 @@ Python 2.7.3
 Run the following command to pull the latest version of Pimotion:
 
 ```
+$ mkdir ~/projects
+$ cd ~/projects
 $ git clone https://github.com/citrusbyte/pimotion.git
 ```
 
