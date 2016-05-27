@@ -5,6 +5,11 @@ Pimotion
 
 Pimotion is a motion detector application that runs on the Raspberry PI. It captures snapshots of movement and uploads the montage image to an [M2X](https://m2x.att.com) device.
 
+### Prerequisites
+
+* A free [AT&T M2X](https://m2x.att.com) developer account
+* A [CloudApp](https://www.getcloudapp.com/) account. Note that the free CloudApp plan is limited to 10 uploads per day, you can [upgrade your CloudApp account](https://www.getcloudapp.com/plans) to allow for unlimited uploads.
+
 ### Installation
 
 Detailed installation instructions can be found at [docs/installation.md](docs/installation.md)
