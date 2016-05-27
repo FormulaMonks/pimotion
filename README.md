@@ -7,25 +7,7 @@ Pimotion is a motion detector application that runs on the Raspberry PI. It capt
 
 ### Installation
 
-#### 1. System dependencies
-```bash
-$ sudo apt-get install libffi-dev
-```
-See: https://urllib3.readthedocs.io/en/latest/security.html#pyopenssl
-
-#### 2. Getting the source code
-
-Installation can be done through cloning the repo onto your Raspberry PI:
-
-```bash
-	$ git clone https://github.com/citrusbyte/pimotion.git
-```
-
-#### 3. Python package dependencies
-Run the following command from the pimotion project root folder:
-```bash
-	$ pip install -r requirements.txt
-```
+Detailed installation instructions can be found at [docs/installation.md](docs/installation.md)
 
 ### Configuration
 
