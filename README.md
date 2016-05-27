@@ -14,10 +14,6 @@ Pimotion is a motion detector application that runs on the Raspberry PI. It capt
 
 Detailed installation instructions can be found at [docs/installation.md](docs/installation.md)
 
-### Configuration
-
-Copy the `settings.cfg.example` file to `settings.cfg` and modify it with your CloudAPP and M2X credentials.
-
 ### Running
 
 Once you've completed steps outlined in the the [installation](docs/installation.md) instructions, the application can be started by running:
