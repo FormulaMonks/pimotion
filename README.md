@@ -20,7 +20,7 @@ Copy the `settings.cfg.example` file to `settings.cfg` and modify it with your C
 
 ### Running
 
-The application can be started by running:
+Once you've completed steps outlined in the the [installation](docs/installation.md) instructions, the application can be started by running:
 
 	$ python pimotion/main.py
 
