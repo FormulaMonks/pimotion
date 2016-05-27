@@ -51,7 +51,7 @@ Run the following command to install the required system packages:
 
 ```
 $ sudo apt-get update
-$ sudo apt-get install python-dev python-pip imagemagick
+$ sudo apt-get install -y python-dev python-pip imagemagick libffi-dev libssl-dev git
 ```
 
 ## Pimotion application installation
@@ -77,9 +77,10 @@ $ git clone https://github.com/citrusbyte/pimotion.git
 
 ### Dependency installation
 
-In the pimotion folder run the following command to install all the dependent python packages:
+In the pimotion folder run the following commands to install all the dependent python packages:
 
 ```
+$ sudo pip install http://effbot.org/downloads/Imaging-1.1.7.tar.gz
 $ sudo pip install -r requirements.txt
 ```
 
