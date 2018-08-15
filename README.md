@@ -16,7 +16,7 @@ Detailed installation instructions can be found at [docs/installation.md](docs/i
 
 ### Running
 
-Once you've completed steps outlined in the the [installation](docs/installation.md) instructions, the application can be started by running:
+Once you've completed steps outlined in the [installation](docs/installation.md) instructions, the application can be started by running:
 
 	$ python pimotion/main.py
 
