@@ -1,6 +1,6 @@
 numpy==1.6.2
 PIL==1.1.7
-requests==2.10.0
+requests==2.20.0
 picamera==1.10
 m2x==5.2.0
 pyopenssl==16.0.0
