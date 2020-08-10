@@ -3,6 +3,6 @@ PIL==1.1.7
 requests==2.10.0
 picamera==1.10
 m2x==5.2.0
-pyopenssl==16.0.0
+pyopenssl==17.5.0
 ndg-httpsclient==0.4.0
 pyasn1==0.1.9
